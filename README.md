@@ -1,4 +1,4 @@
-# Woke tests for Axelar CGP governance submodule
+# Tests for Axelar CGP governance submodule
 
 ## Setup
 
