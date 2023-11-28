@@ -3,8 +3,8 @@ import random
 from collections import defaultdict
 from typing import List, Set, DefaultDict
 
-from woke.testing import *
-from woke.testing.fuzzing import *
+from wake.testing import *
+from wake.testing.fuzzing import *
 from pytypes.source.contracts.governance.Multisig import Multisig
 from pytypes.tests.PayloadReceiverMock import PayloadReceiverMock
 

@@ -1,4 +1,4 @@
-from woke.testing import *
+from wake.testing import *
 from pytypes.source.contracts.interfaces.IAxelarGateway import IAxelarGateway
 from pytypes.source.contracts.AxelarGateway import AxelarGateway
 from pytypes.source.contracts.interfaces.IGovernable import IGovernable
@@ -8,7 +8,6 @@ from pytypes.source.contracts.governance.AxelarServiceGovernance import AxelarSe
 @default_chain.connect(fork="http://localhost:8545")
 def test_axelar_gateway_upgrade():
     a, b, c, d = default_chain.accounts[:4]
-    default_chain.set_default_accounts(a)
 
     proxy = IAxelarGateway("0x4F4495243837681061C4743b74B3eEdf548D56A5")
     impl = AxelarGateway.deploy(proxy.authModule(), proxy.tokenDeployer())

@@ -2,8 +2,8 @@ import logging
 import random
 from dataclasses import dataclass
 from typing import Dict, Set
-from woke.testing import *
-from woke.testing.fuzzing import *
+from wake.testing import *
+from wake.testing.fuzzing import *
 from pytypes.axelarnetwork.axelargmpsdksolidity.contracts.interfaces.IAxelarExecutable import IAxelarExecutable
 
 from pytypes.source.contracts.governance.InterchainGovernance import InterchainGovernance
